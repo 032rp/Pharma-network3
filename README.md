@@ -1,10 +1,12 @@
 # Pharma-network3
 
 
-/////Open a command terminal with in Network folder, let's call this terminal as host terminal
+### Open a command terminal with in Network folder, let's call this terminal as host terminal ####
+`
 cd Network/
+`
 ############## host terminal ##############
-------------Start the Fabric-CA server and register the ca admin for each organization—----------------
+###### ------------Start the Fabric-CA server and register the ca admin for each organization—---------------- #####
 docker-compose -f docker/docker-compose-ca.yaml up -d
 sudo chmod -R 777 organizations/
 ------------Register and enroll the users for each organization—-----------
